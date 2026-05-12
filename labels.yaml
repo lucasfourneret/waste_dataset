@@ -1,0 +1,10 @@
+#Raw data from kaggle page :
+#https://www.kaggle.com/datasets/estebanpacanchique/cigarette-butt?resource=download
+#Originaly in .xml 4 coordinates format
+
+path: /home/lucas/Documents/cig_butts_model/cigarette_dataset  # dataset root dir
+train: images/train # train images (relative to 'path')
+val: images/val # val images (relative to 'path')
+
+names :
+  0: CigaretteButt
